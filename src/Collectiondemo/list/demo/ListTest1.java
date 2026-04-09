@@ -10,6 +10,13 @@ public class ListTest1 {
         l.add("bbb");
         l.add("ccc");
         l.add(1,"qqq");
+
+        l.remove(1);
+        l.set(1,"ccc");
+        l.get(2);
         System.out.println(l);
+        for (int i = 0; i < l.size(); i++) {
+            System.out.println(l.get(i));
+        }
     }
 }
